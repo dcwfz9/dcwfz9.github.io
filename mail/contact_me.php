@@ -1,4 +1,5 @@
 <?php
+return true;
 // Check for empty fields
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
