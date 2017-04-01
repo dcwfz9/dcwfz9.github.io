@@ -1,0 +1,33 @@
+hr.ruler-light,
+hr.ruler-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.ruler-light:after,
+hr.ruler-primary:after {
+  content: "\f004";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.ruler-light {
+  border-color: white;
+}
+hr.ruler-light:after {
+  background-color: #18BC9C;
+  color: white;
+}
+hr.ruler-primary {
+  border-color: #2C3E50;
+}
+hr.ruler-primary:after {
+  background-color: white;
+  color: #2C3E50;
+}
