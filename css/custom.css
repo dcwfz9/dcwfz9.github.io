@@ -37,3 +37,8 @@ hr.ruler-primary:after {
   background-color: white;
   color: #2C3E50;
 }
+.inner-div
+{
+     margin: 0 auto;
+     width: 100px; 
+}
