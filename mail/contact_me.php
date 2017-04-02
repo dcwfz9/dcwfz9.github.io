@@ -1,5 +1,4 @@
 <?php
-return true;
 // Check for empty fields
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
@@ -17,7 +16,7 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 	
 // Create the email and send the message
-$to = 'dw@derekwelty.com'; // Add your email address inbetween the '' 
+$to = "dw@derekwelty.com"; // Add your email address inbetween the '' 
 $email_subject = "Website Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@derekwelty.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
