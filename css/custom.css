@@ -40,3 +40,7 @@ hr.ruler-primary:after {
 .form-control:-moz-placeholder { color: white; }
 .form-control::-moz-placeholder { color: white; }
 .form-control:-ms-input-placeholder { color: white; }
+
+blockquote footer{
+	color: #18BC9C;
+}
