@@ -203,8 +203,7 @@
 
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form method="POST" action="https://formspree.io/contact@derekwelty.com" id="contactForm"
-                        novalidate>
+                    <form method="POST" id="contactForm" action="" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="name">Name</label>
@@ -236,7 +235,7 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-warning btn-lg">Send</button>
+                                <button id="contactSubmit" type="submit" onclick="submitForm()" class="btn btn-warning btn-lg">Send</button>
                             </div>
                         </div>
                     </form>
@@ -461,6 +460,8 @@
         </div>
     </div>
 
+
+
     <!-- imgur -->
     <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
@@ -479,6 +480,8 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+	
+
 
 </body>
 
