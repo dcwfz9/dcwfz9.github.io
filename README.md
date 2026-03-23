@@ -1,15 +1,21 @@
-## dcwfz9.github.io
-Personal website of Derek Welty
+# derekwelty.com
 
-## Bugs and Issues
+Personal website of Derek Welty.
 
-## Creator
+## Stack
+- HTML / CSS / JS
+- Bootstrap + jQuery (CDN)
+- Less → CSS via Gulp
+- Hosted on GitHub Pages
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+## Development
+```
+npm install
+npx gulp
+```
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Deploy
+Push to `main`. GitHub Pages auto-deploys.
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
+## Attribution
+Built on [Start Bootstrap](https://startbootstrap.com/) by David Miller.
