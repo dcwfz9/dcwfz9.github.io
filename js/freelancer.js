@@ -1,44 +1,46 @@
-// Freelancer Theme JavaScript
+// Freelancer Theme JavaScript - Bootstrap 5 (no jQuery)
 
-(function($) {
-    "use strict"; // Start of use strict
+(function() {
+    "use strict";
 
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('.page-scroll a').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
-        event.preventDefault();
-    });
-
-    // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 51
-    });
-
-    // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
-            $('.navbar-toggle:visible').click();
-    });
-
-    // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
-
-    // Floating label headings for the contact form
-    $(function() {
-        $("body").on("input propertychange", ".floating-label-form-group", function(e) {
-            $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
-        }).on("focus", ".floating-label-form-group", function() {
-            $(this).addClass("floating-label-form-group-with-focus");
-        }).on("blur", ".floating-label-form-group", function() {
-            $(this).removeClass("floating-label-form-group-with-focus");
+    // Smooth scroll for nav links
+    document.querySelectorAll('.nav-link, .navbar-brand').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            var href = this.getAttribute('href');
+            if (href && href.startsWith('#')) {
+                e.preventDefault();
+                var target = document.querySelector(href);
+                if (target) {
+                    var offset = target.getBoundingClientRect().top + window.pageYOffset - 50;
+                    window.scrollTo({ top: offset, behavior: 'smooth' });
+                }
+            }
         });
     });
 
-})(jQuery); // End of use strict
+    // Close mobile nav on link click
+    var navbarCollapse = document.querySelector('.navbar-collapse');
+    if (navbarCollapse) {
+        var bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
+        document.querySelectorAll('.navbar-nav .nav-link').forEach(function(link) {
+            link.addEventListener('click', function() {
+                if (window.getComputedStyle(document.querySelector('.navbar-toggler')).display !== 'none') {
+                    bsCollapse.hide();
+                }
+            });
+        });
+    }
+
+    // Navbar shrink on scroll
+    var mainNav = document.getElementById('mainNav');
+    function navbarShrink() {
+        if (window.scrollY > 100) {
+            mainNav.classList.add('navbar-shrink');
+        } else {
+            mainNav.classList.remove('navbar-shrink');
+        }
+    }
+    window.addEventListener('scroll', navbarShrink);
+    navbarShrink();
+
+})();
