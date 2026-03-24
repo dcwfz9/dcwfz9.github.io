@@ -7,29 +7,11 @@ hr.ruler-primary {
   max-width: 250px;
   margin: 25px auto 30px;
 }
-hr.ruler-light:after,
-hr.ruler-primary:after {
-  content: "\f0e7";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2em;
-  padding: 0 0.25em;
-}
 hr.ruler-light {
   border-color: white;
 }
-hr.ruler-light:after {
-  background-color: #7C9E82;
-  color: white;
-}
 hr.ruler-primary {
   border-color: #2C3E50;
-}
-hr.ruler-primary:after {
-  background-color: white;
-  color: #2C3E50;
 }
 .inner-div{
      margin: 0 auto;
