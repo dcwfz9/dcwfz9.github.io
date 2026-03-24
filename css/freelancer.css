@@ -5,6 +5,7 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  background-color: #F8F5F0;
 }
 p {
   font-size: 20px;
@@ -35,7 +36,7 @@ header {
   color: white;
 }
 header .container {
-  padding-top: 100px;
+  padding-top: 140px;
   padding-bottom: 50px;
 }
 header img {
