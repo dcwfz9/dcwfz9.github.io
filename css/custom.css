@@ -41,6 +41,8 @@ hr.ruler-primary:after {
 .form-control::-moz-placeholder { color: white; }
 .form-control:-ms-input-placeholder { color: white; }
 
-blockquote footer{
+blockquote .blockquote-footer {
 	color: #18BC9C;
+	margin-top: 0.5em;
+	font-size: 0.9em;
 }
