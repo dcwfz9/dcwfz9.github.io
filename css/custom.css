@@ -21,7 +21,7 @@ hr.ruler-light {
   border-color: white;
 }
 hr.ruler-light:after {
-  background-color: #18BC9C;
+  background-color: #7C9E82;
   color: white;
 }
 hr.ruler-primary {
@@ -42,7 +42,7 @@ hr.ruler-primary:after {
 .form-control:-ms-input-placeholder { color: white; }
 
 blockquote .blockquote-footer {
-	color: #18BC9C;
+	color: #7C9E82;
 	margin-top: 0.5em;
 	font-size: 0.9em;
 }
