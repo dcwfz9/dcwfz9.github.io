@@ -12,7 +12,12 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:1313/)",
       "Bash(xargs kill *)",
       "mcp__Claude_Preview__preview_start",
-      "Bash(hugo --buildDrafts)"
+      "Bash(hugo --buildDrafts)",
+      "Bash(git submodule *)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__tabs_create_mcp",
+      "Bash(git restore *)"
     ]
   }
 }
