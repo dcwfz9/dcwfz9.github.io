@@ -1,0 +1,14 @@
+[[main]]
+  name = "Home"
+  url = "/"
+  weight = 5
+
+[[main]]
+  name = "Résumé"
+  url = "/resume/"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  url = "https://derek.engineer"
+  weight = 20

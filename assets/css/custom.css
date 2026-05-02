@@ -1,0 +1,7 @@
+/* Lighter button in dark mode for better contrast */
+.dark [role="button"].bg-primary-600 {
+  background-color: rgba(var(--color-primary-500), 1);
+}
+.dark [role="button"].bg-primary-600:hover {
+  background-color: rgba(var(--color-primary-400), 1);
+}

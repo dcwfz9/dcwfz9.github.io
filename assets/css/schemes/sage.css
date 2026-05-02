@@ -1,0 +1,40 @@
+/* Sage scheme — derived from #7C9E82 */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* Gray */
+  --color-neutral-50: 249, 250, 251;
+  --color-neutral-100: 243, 244, 246;
+  --color-neutral-200: 229, 231, 235;
+  --color-neutral-300: 209, 213, 219;
+  --color-neutral-400: 156, 163, 175;
+  --color-neutral-500: 107, 114, 128;
+  --color-neutral-600: 75, 85, 99;
+  --color-neutral-700: 55, 65, 81;
+  --color-neutral-800: 31, 41, 55;
+  --color-neutral-900: 17, 24, 39;
+  --color-neutral-950: 17, 24, 39;
+  /* Sage — built from #7C9E82 (hsl ~131, 15%, 55%) */
+  --color-primary-50: 245, 250, 246;
+  --color-primary-100: 230, 239, 232;
+  --color-primary-200: 204, 219, 207;
+  --color-primary-300: 170, 192, 174;
+  --color-primary-400: 145, 172, 149;
+  --color-primary-500: 124, 158, 130;
+  --color-primary-600: 94, 130, 101;
+  --color-primary-700: 72, 101, 77;
+  --color-primary-800: 50, 72, 54;
+  --color-primary-900: 29, 43, 31;
+  --color-primary-950: 18, 28, 20;
+  /* Gray secondary */
+  --color-secondary-50: 249, 250, 251;
+  --color-secondary-100: 243, 244, 246;
+  --color-secondary-200: 229, 231, 235;
+  --color-secondary-300: 209, 213, 219;
+  --color-secondary-400: 156, 163, 175;
+  --color-secondary-500: 107, 114, 128;
+  --color-secondary-600: 75, 85, 99;
+  --color-secondary-700: 55, 65, 81;
+  --color-secondary-800: 31, 41, 55;
+  --color-secondary-900: 17, 24, 39;
+  --color-secondary-950: 10, 10, 10;
+}

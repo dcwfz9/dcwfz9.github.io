@@ -1,0 +1,20 @@
+languageCode = "en-US"
+languageName = "English"
+weight = 1
+
+title = "Derek Welty"
+copyright = "&copy; 2026 Derek Welty"
+
+[params]
+  description = "Systems Engineering Lead at eero (Amazon). Electrical engineer on the West Coast."
+
+[params.author]
+  name = "Derek Welty"
+  image = "img/profile.png"
+  headline = "Systems thinker. Hardware builder."
+  bio = "Systems Engineering Lead at eero (Amazon). Formerly Apple and Microsoft. BSEE/MSEE&nbsp;from Missouri S&T. Based in San Francisco."
+  links = [
+    { linkedin = "https://www.linkedin.com/in/derekwelty/" },
+    { github = "https://github.com/dcwfz9/" },
+    { email = "mailto:derek@derekwelty.com" },
+  ]
