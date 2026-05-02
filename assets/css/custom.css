@@ -4,8 +4,8 @@ section.not-prose hr {
   margin-bottom: 0.875rem;
 }
 
-/* Subtle header separator */
-header {
+/* Subtle header separator — scoped to site nav only */
+header.print\:hidden {
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
