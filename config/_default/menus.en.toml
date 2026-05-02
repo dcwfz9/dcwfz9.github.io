@@ -9,6 +9,6 @@
   weight = 10
 
 [[main]]
-  name = "Blog"
+  name = "Projects"
   url = "https://derek.engineer"
   weight = 20

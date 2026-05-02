@@ -16,7 +16,7 @@ enableCodeCopy = false
   showScrollToTop = true
 
 [homepage]
-  layout = "profile"
+  layout = "custom"
   showRecent = false
 
 [article]

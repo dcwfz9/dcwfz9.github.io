@@ -1,3 +1,9 @@
+/* Profile divider spacing */
+section.not-prose hr {
+  margin-top: 0.875rem;
+  margin-bottom: 0.875rem;
+}
+
 /* Lighter button in dark mode for better contrast */
 .dark [role="button"].bg-primary-600 {
   background-color: rgba(var(--color-primary-500), 1);

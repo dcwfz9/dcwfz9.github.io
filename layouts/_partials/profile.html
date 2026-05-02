@@ -18,6 +18,7 @@
       {{ partial "picture.html" (dict "img" $authorImage "alt" $altText "class" $imgClass "lazy" $lazy "webp" $webp) }}
     {{ end }}
   {{ end }}
+  <p class="text-sm font-medium tracking-widest uppercase text-neutral-500 dark:text-neutral-400 mb-1">Hi, I'm</p>
   <h1 class="text-4xl font-extrabold">
     {{ site.Language.Params.Author.name | default site.Title }}
   </h1>
@@ -27,8 +28,9 @@
     </h2>
   {{ end }}
   {{ with site.Language.Params.Author.bio }}
-    <p class="mt-2 text-base text-neutral-500 dark:text-neutral-400 max-w-prose text-center">
-      {{ . | markdownify }}
+    <hr class="w-12 border-t-2 border-neutral-400 dark:border-neutral-500">
+    <p class="text-sm text-neutral-500 dark:text-neutral-400 text-center">
+      {{ . }}
     </p>
   {{ end }}
   <div class="mt-1 text-2xl">
