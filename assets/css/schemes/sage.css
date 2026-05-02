@@ -1,18 +1,18 @@
 /* Sage scheme — derived from #7C9E82 */
 :root {
   --color-neutral: 255, 255, 255;
-  /* Gray */
-  --color-neutral-50: 249, 250, 251;
-  --color-neutral-100: 243, 244, 246;
-  --color-neutral-200: 229, 231, 235;
-  --color-neutral-300: 209, 213, 219;
-  --color-neutral-400: 156, 163, 175;
-  --color-neutral-500: 107, 114, 128;
-  --color-neutral-600: 75, 85, 99;
-  --color-neutral-700: 55, 65, 81;
-  --color-neutral-800: 31, 41, 55;
-  --color-neutral-900: 17, 24, 39;
-  --color-neutral-950: 17, 24, 39;
+  /* Forest-tinted neutrals */
+  --color-neutral-50: 247, 250, 248;
+  --color-neutral-100: 236, 243, 238;
+  --color-neutral-200: 214, 228, 217;
+  --color-neutral-300: 180, 200, 184;
+  --color-neutral-400: 138, 162, 143;
+  --color-neutral-500: 100, 122, 105;
+  --color-neutral-600: 72, 92, 76;
+  --color-neutral-700: 48, 64, 51;
+  --color-neutral-800: 28, 40, 30;
+  --color-neutral-900: 18, 27, 20;
+  --color-neutral-950: 12, 18, 13;
   /* Sage — built from #7C9E82 (hsl ~131, 15%, 55%) */
   --color-primary-50: 245, 250, 246;
   --color-primary-100: 230, 239, 232;
