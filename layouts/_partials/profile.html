@@ -13,7 +13,7 @@
   {{ with site.Language.Params.Author.image }}
     {{ $authorImage := resources.Get . }}
     {{ if $authorImage }}
-      {{ $imgClass := "mb-2 h-auto w-36 rounded-full" }}
+      {{ $imgClass := "mb-2 h-36 w-36 rounded-full object-cover" }}
       {{ $webp := $.Page.Site.Params.enableImageWebp | default true }}
       {{ partial "picture.html" (dict "img" $authorImage "alt" $altText "class" $imgClass "lazy" $lazy "webp" $webp) }}
     {{ end }}
