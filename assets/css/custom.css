@@ -1,17 +1,11 @@
-/* Profile divider spacing */
-section.not-prose hr {
-  margin-top: 0.875rem;
-  margin-bottom: 0.875rem;
-}
-
 /* Extra breathing room below nav on content pages */
 article.max-w-full {
   padding-top: 1.5rem;
 }
 
-/* Subtle header separator — scoped to site nav only */
-header.print\:hidden {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+/* Tighten space below Download PDF button */
+.prose p:has(> [role="button"]) {
+  margin-bottom: 0.5rem;
 }
 
 /* Lighter button in dark mode for better contrast */

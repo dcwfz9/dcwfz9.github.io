@@ -18,22 +18,21 @@
       {{ partial "picture.html" (dict "img" $authorImage "alt" $altText "class" $imgClass "lazy" $lazy "webp" $webp) }}
     {{ end }}
   {{ end }}
-  <p class="text-sm font-medium tracking-widest uppercase text-neutral-500 dark:text-neutral-400 mb-1">Hi, I'm</p>
-  <h1 class="text-4xl font-extrabold">
+  <p class="text-sm font-medium tracking-widest uppercase text-neutral-500 dark:text-neutral-400 mt-3">Hi, I'm</p>
+  <h1 class="mt-2 text-4xl font-extrabold">
     {{ site.Language.Params.Author.name | default site.Title }}
   </h1>
   {{ with site.Language.Params.Author.headline }}
-    <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
+    <h2 class="mt-2 text-xl text-neutral-500 dark:text-neutral-400">
       {{ . | markdownify | emojify }}
     </h2>
   {{ end }}
+  <div class="mt-3 text-2xl">
+    {{ partialCached "author-links.html" . }}
+  </div>
   {{ with site.Language.Params.Author.bio }}
-    <hr class="w-12 border-t-2 border-neutral-400 dark:border-neutral-500">
-    <p class="text-sm text-neutral-500 dark:text-neutral-400 text-center">
+    <p class="mt-5 text-sm text-neutral-500 dark:text-neutral-400 text-center">
       {{ . }}
     </p>
   {{ end }}
-  <div class="mt-1 text-2xl">
-    {{ partialCached "author-links.html" . }}
-  </div>
 </section>
