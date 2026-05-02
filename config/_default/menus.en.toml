@@ -12,3 +12,5 @@
   name = "Projects"
   url = "https://derek.engineer"
   weight = 20
+  [main.params]
+    target = "_blank"
