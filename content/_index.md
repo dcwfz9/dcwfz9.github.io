@@ -2,7 +2,7 @@
 title: "Derek Welty"
 ---
 
-Electrical engineer originally from the Midwest who has made his home on the West Coast. BSEE/MSEE, patent owner, music lover, reader, cyclist, and hobbyist.
+Systems engineering lead at eero and electrical engineer with experience building consumer hardware at Apple, Microsoft, Garmin, and Honeywell. I document side projects and build notes at [derek.engineer](https://derek.engineer).
 
 ---
 
