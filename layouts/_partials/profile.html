@@ -23,7 +23,7 @@
     {{ site.Language.Params.Author.name | default site.Title }}
   </h1>
   {{ with site.Language.Params.Author.headline }}
-    <h2 class="mt-2 text-xl text-neutral-500 dark:text-neutral-400">
+    <h2 class="mt-2 text-xl text-neutral-500 dark:text-neutral-400 text-center">
       {{ . | markdownify | emojify }}
     </h2>
   {{ end }}
