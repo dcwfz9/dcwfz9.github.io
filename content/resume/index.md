@@ -9,8 +9,11 @@ Download PDF
 
 ## Experience
 
+**Senior Hardware Design Engineer** — HP IQ  
+*June 2026 – Present*
+
 **Systems Engineering Lead** — eero (Amazon)  
-*June 2025 – Present*
+*June 2025 – June 2026*
 
 **Senior Display Electrical Engineer** — Apple Inc.  
 *Nov 2023 – Feb 2025*

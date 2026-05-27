@@ -6,13 +6,13 @@ title = "Derek Welty"
 copyright = "&copy; 2026 Derek Welty"
 
 [params]
-  description = "Systems engineering lead at eero and electrical engineer with experience building consumer hardware at Apple, Microsoft, Garmin, and Honeywell."
+  description = "Electrical engineer building AI hardware at the edge. Formerly Apple, Microsoft, Garmin, Honeywell, and Amazon. Based in San Francisco."
 
 [params.author]
   name = "Derek Welty"
   image = "img/profile.png"
   headline = "Electrical engineer building consumer hardware, systems, and useful tools."
-  bio = "Systems Engineering Lead at eero (Amazon). Formerly Apple, Microsoft, Garmin, and Honeywell. BSEE/MSEE from Missouri S&T. Based in San Francisco."
+  bio = "Electrical engineer building AI hardware at the edge. Formerly Apple, Microsoft, Garmin, Honeywell, and Amazon. BSEE/MSEE from Missouri S&T. Based in San Francisco."
   links = [
     { linkedin = "https://www.linkedin.com/in/derekwelty/" },
     { github = "https://github.com/dcwfz9/" },
