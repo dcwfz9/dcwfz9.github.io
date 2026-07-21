@@ -2,7 +2,7 @@
 title: "Derek Welty"
 ---
 
-Systems engineering lead at eero and electrical engineer with experience building consumer hardware at Apple, Microsoft, Garmin, and Honeywell. I document side projects and build notes at [derek.engineer](https://derek.engineer).
+Senior hardware design engineer at HP IQ, an AI innovation lab. Formerly Apple, Microsoft, eero, Garmin, and Honeywell. I document side projects and build notes at [derek.engineer](https://derek.engineer).
 
 ---
 

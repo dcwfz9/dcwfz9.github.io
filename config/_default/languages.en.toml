@@ -6,13 +6,13 @@ title = "Derek Welty"
 copyright = "&copy; 2026 Derek Welty"
 
 [params]
-  description = "Electrical engineer turning AI ideas into physical products. Formerly Apple, Microsoft, Garmin, Honeywell, and Amazon. Based in San Francisco."
+  description = "Senior Hardware Design Engineer at HP IQ. Formerly Apple, Microsoft, Garmin, Honeywell, and Amazon. Based in San Francisco."
 
 [params.author]
   name = "Derek Welty"
   image = "img/profile.png"
-  headline = "Electrical engineer turning AI ideas into physical products."
-  bio = "Electrical engineer turning AI ideas into physical products. Formerly Apple, Microsoft, Garmin, Honeywell, and Amazon. BSEE/MSEE from Missouri S&T. Based in San Francisco."
+  headline = "Electrical engineer by training. Building products people live with."
+  bio = "Senior Hardware Design Engineer at HP IQ, an AI innovation lab. Formerly Apple, Microsoft, Garmin, Honeywell, and Amazon. BSEE/MSEE from Missouri S&T. Based in San Francisco."
   links = [
     { linkedin = "https://www.linkedin.com/in/derekwelty/" },
     { github = "https://github.com/dcwfz9/" },
