@@ -1,7 +1,7 @@
 ---
 title: "Free OTA TV Anywhere, Using a Box I Already Had"
-date: 2026-07-19
-draft: true
+date: 2026-07-29
+draft: false
 description: "Moved my antenna to a closet, wired up an HDHomeRun, and now I can stream or record live TV from anywhere over Tailscale."
 tags: ["home networking", "homelab", "tailscale", "hdtv"]
 ---
