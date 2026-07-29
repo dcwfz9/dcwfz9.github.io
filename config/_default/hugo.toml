@@ -1,7 +1,7 @@
 theme = "congo"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
-baseURL = "https://www.derekwelty.com/"
+baseURL = "https://derek.engineer/"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
