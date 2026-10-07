@@ -11,7 +11,7 @@ copyright = "&copy; 2026 Derek Welty"
 [params.author]
   name = "Derek Welty"
   image = "img/profile.png"
-  headline = "Electrical engineer by training. Building products people live with."
+  headline = "Electrical engineer and lifelong learner. Building products people live with."
   bio = "Senior Hardware Design Engineer at HP IQ, an AI innovation lab. Formerly Apple, Microsoft, Garmin, Honeywell, and Amazon. BSEE/MSEE from Missouri S&T. Based in San Francisco."
   links = [
     { linkedin = "https://www.linkedin.com/in/derekwelty/" },
